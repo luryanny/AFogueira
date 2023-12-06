@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+body {
+
+    background-color: #251A10;
+    word-wrap: break-word;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Gentium Basic', sans-serif; 
+    font-weight: 100;
+    font-size: 75pt;
+    font-style: bold; 
+    color:#FEF7C2
+   
+   
+}
+
+
+tr {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+h3 {
+    color:#8C6216;
+    font-family: 'Times New Roman', 'Arial';
+    font-weight: 600;
+
+}
+
+ol {
+    color: #EFD09C;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 15pt;
+
+}
+
+.grid {
+    background-color: #1a110a; 
+    text-align: center; 
+    color:#8C6216; 
+    font-family: 'Times New Roman', sans-serif; 
+    font-size: 12pt; 
+    font-weight: 100;
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+}
+
+/* .item {
+
+} */
+
+.item2 {
+    justify-items: center;
+    place-content: center;
+    grid-row: span 2;
+}
+
+/* #dobro {
+
+
+} */
+
+img {
+    
+    width: 50%;
+    height: 80%;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+#banner {
+    grid-row: 3;
+    grid-column: span 3;
+    vertical-align: top;
+}
+
+#vid {
+    grid-row: 5;
+    place-content: center;
+    place-items: center;
+    grid-column: span 3;
+
+}
+
+.exemplo {
+    color: #EED19C; 
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 20pt; 
+    font-weight: 400;
+}
+
+pre {
+    font-family: 'Times New Roman', sans-serif; 
+    font-weight: 100;
+    font-size: 16pt;
+    font-weight: 300;
+    word-wrap: break-word; 
+}
+
+p {
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 18pt;
+    color: #8C6216;
+}
+
+button {
+    width: 223px;
+    height: 30px;
+}
+
+h2 {
+    font-family: 'ScriptC', 'Arial';
+    font-weight: 400;
+    color: #592D14;
+    font-size: 32pt; 
+}
+
+footer {
+    font-family: 'Times New Roman', sans-serif; 
+    color: #8C6216;
+    font-weight: 500;
+    font-size: 15pt;
+}
