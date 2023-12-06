@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+body {
+
+    background-color: #B6A685;
+    word-wrap: break-word;
+    align-items: center;
+    text-align: left;
+    font-family: 'Georgia', sans-serif;
+    font-size: 110%; 
+}
+
+
+h1 {
+    font-family: 'Georgia', sans-serif; 
+    color: #EED19C;
+    font-weight: 100;
+    font-size: 63pt;
+    line-height: 1.25; 
+}
+
+h2 {
+    font-family: 'Georgia', 'Arial';
+    font-weight: 400;
+    color: #EED19C;
+    font-size: 28pt; 
+}
+
+h3 {
+    color:#8D6217;
+    font-family: 'Georgia', 'Arial';
+    font-weight: 700;
+
+}
+
+ol {
+    color: #EED19C;
+    font-family: 'Georgia', sans-serif;
+    font-size: 11pt;
+
+}
+
+.exemplo {
+    color: #EED19C; 
+    font-family: 'Georgia', sans-serif;
+    font-size: 20pt; 
+    font-weight: 400;
+}
+
+pre {
+    font-family: 'Georgia', sans-serif; 
+    font-weight: 100;
+    font-size: 16pt;
+    font-weight: 300;
+    word-wrap: break-word; 
+}
+
+p {
+    font-family: 'Georgia', sans-serif;
+    font-size: 13pt;
+}
+
+button {
+    width: 250px;
+    height: 30px;
+}
+
+Enviar {
+    width: 0cap;
+}
+
+footer {
+    font-family: 'Georgia', sans-serif; 
+    font-weight: 500;
+    font-size: 10pt;
+}

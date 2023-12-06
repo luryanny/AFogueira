@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⚔︎ Reservas ⚔︎</title>
+    <link rel="shortcut icon" href="https://i.ibb.co/Jsn18vq/sword.png" type="image/x-icon">
+    <link rel="stylesheet" href="imgs.css">
+    <script language="javascript" src="alert.js" ></script>
+</head>
+<body>
+    <justify>
+       <center><img src="https://static.vecteezy.com/system/resources/thumbnails/011/660/121/small/golden-vintage-border-png.png">
+    <form>
+        <h3> Preencha e entraremos em contato para escolher a melhor data para você!</h3>
+        <br>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+        <br>
+        <br>
+        <label for="telefone">Telefone:</label>
+        <input type="tel" name="telefone" id="telefone" placeholder="(XX) 99999-0000">
+        <br><br>
+        É Whatsapp? 
+        <br>
+        <br>
+        <input type="radio" name="whatsapp" id="whatsapp" value="sim"> Sim, entrar em contato por mensagem no Whatsapp
+        <br><br>
+        <input type="radio" name="whatsapp" id="whatsapp" value="nao"> Não, entrar em contato por ligação
+        <br><br>
+        <input type="radio" name="whatsapp" id="whatsapp" value="outro"> Desejo receber contato apenas por e-mail
+        <br><br>
+        <br>
+        Tipo de agendamento:
+        <br><br>
+        <input type="checkbox" name="reserva" value="reserva">Reserva de mesa<br>
+        <input type="checkbox" name="rpg" value="rpg">RPG<br>
+        <input type="checkbox" id = "outro" name = "interesse" value = "outro">
+        <label for="other">Outro. Qual?  </label>
+        <input type="text" id ="otherValue" name="outro" placeholder="Insira o nome do serviço">
+        <br>
+        <br>
+        <br>
+        <br>
+        <input type="submit" value="Enviar" onClick='imprimeAlerta()'>
+
+    </form>
+</center> </justify>
+<br>
+    
+</body>
+</html>
